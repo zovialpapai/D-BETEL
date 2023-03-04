@@ -9,7 +9,7 @@ library(hrbrthemes)
 
 library(reshape2)
 
-# Raw data (obtained from Kaggle) -------------------------------------------------------
+# Raw data  -------------------------------------------------------
 # The raw dataset is attached in the data folder of the supplement
 Raw_Data = read.csv("C:/Users/zovia/OneDrive/Desktop/compas-scores-raw.csv/compas-scores-raw.csv")
 dim(Raw_Data)
