@@ -9,8 +9,9 @@ library(hrbrthemes)
 
 library(reshape2)
 
-# Raw data (obtained from Kaggle) -------------------------------------------------------
-# The raw dataset is attached in the data folder of the supplement
+# Raw data  -------------------------------------------------------
+# The raw dataset  freely available from the propublica website
+# https://www.propublica.org/datastore/dataset/compas-recidivism-risk-score-data-and-analysis
 Raw_Data = read.csv("C:/Users/zovia/OneDrive/Desktop/compas-scores-raw.csv/compas-scores-raw.csv")
 dim(Raw_Data)
 colnames(Raw_Data)
