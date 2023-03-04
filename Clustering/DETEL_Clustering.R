@@ -488,38 +488,4 @@ M2_varying_epsilon[which(epsilon == epsilon_grid), ] = c(epsilon, colMeans(M2_Re
 M1_varying_epsilon
 M2_varying_epsilon
 
-#saveRDS(M1_varying_epsilon, paste0("E:/Projects/Bayesian_Emphirical_Likelihood/submit_code/M1_varying_epsilon_SampleSize", N,"alpha2_5",.rds"))
-#saveRDS(M2_varying_epsilon, paste0("E:/Projects/Bayesian_Emphirical_Likelihood/submit_code/M2_varying_epsilon_SampleSize",N,"alpha2_5",.rds"))
-# N = 500
-# > M1_varying_epsilon
-# epsilon  Marg-lik  ELPD_LOO SE(ELPD_LOO)
-# [1,]    2.25 -3106.887 -3112.236 2.974211e+00
-# [2,]    3.00 -3102.067 -3107.517 2.273800e-01
-# [3,]    4.00 -3102.006 -3107.304 5.636603e-06
-# [4,]    8.00 -3102.006 -3107.304 3.825615e-06
-# [5,]   16.00 -3102.006 -3107.304 4.208606e-06
-# > M2_varying_epsilon
-# epsilon  Marg-lik  ELPD_LOO SE(ELPD_LOO)
-# [1,]    2.25 -3126.558 -3146.767 10.199852951
-# [2,]    3.00 -3102.966 -3108.101  1.115118567
-# [3,]    4.00 -3102.086 -3107.452  0.214493604
-# [4,]    8.00 -3102.028 -3107.351  0.052969866
-# [5,]   16.00 -3102.007 -3107.307  0.009296881
-# > 
 
-# N = 400
-# > M1_varying_epsilon
-# epsilon  Marg-lik  ELPD_LOO SE(ELPD_LOO)
-# [1,]    2.25 -1707.938 -1714.746 2.477157e+00
-# [2,]    3.00 -1705.898 -1711.393 2.238860e-01
-# [3,]    4.00 -1705.836 -1711.135 4.904110e-06
-# [4,]    8.00 -1705.836 -1711.135 4.386455e-06
-# [5,]   16.00 -1705.836 -1711.135 2.475625e-06
-# > M2_varying_epsilon
-# epsilon  Marg-lik  ELPD_LOO SE(ELPD_LOO)
-# [1,]    2.25 -1721.256 -1727.645  6.405705298
-# [2,]    3.00 -1706.766 -1714.324  1.698809443
-# [3,]    4.00 -1706.228 -1712.700  1.060566690
-# [4,]    8.00 -1705.845 -1711.158  0.038824433
-# [5,]   16.00 -1705.837 -1711.135  0.001022178
-# > 
