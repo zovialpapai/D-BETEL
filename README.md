@@ -1,4 +1,4 @@
-Computer code  to reproduce the numerical results presented in "Robust probabilistic inference via a constrained transport metric" (Chakraborty A., Bhattacharya A., Pati D., 2023+). Please reach out in abhisek_chakraborty@tamu.edu for any queries. Here, I present a short decription about the scripts in the repository.
+Computer code  to reproduce the numerical results presented in "Robust probabilistic inference via a constrained transport metric" (Chakraborty A., Bhattacharya A., Pati D., 2023+). Please reach out in abhisek_chakraborty@tamu.edu for any queries. Here, we present a short decription about the scripts in the repository.
 
 (1) Clustering: 
 Find the R scripts to carry out model based clustering  in presence of small perturbation of the data genration mechanism  (a) based on Standard/Fractional Bayesian proccedure (FractionalPost_Clustering.R) and D-BETEL based methodology (DBETEL_Clustering.R). This can be utilised to re-produce the results presented in Section 3.1 of the paper.
